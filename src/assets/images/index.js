@@ -2,6 +2,7 @@ import bigShoe1 from './big-shoe1.png'
 import bigShoe2 from './big-shoe2.png'
 import bigShoe3 from './big-shoe3.png'
 
+
 import customer1 from './customer1.jpeg'
 import customer2 from './customer2.svg'
 
@@ -20,6 +21,14 @@ import thumbnailBackground from './thumbnail-background.svg'
 import thumbnailShoe1 from './thumbnail-shoe1.svg'
 import thumbnailShoe2 from './thumbnail-shoe2.svg'
 import thumbnailShoe3 from './thumbnail-shoe3.svg'
+
+import softwareplatforms from './softwareplatforms.jpg'
+import itinfrastructure from './ITInfrastructure.jpg'
+import security from './security.jpg'
+import data from './data.jpg'
+import innovate from './innovate.jpg'
+import bask from './bask.png'
+import women from './women.jpeg'
 
 export {
     bigShoe1,
@@ -42,5 +51,13 @@ export {
     thumbnailBackground,
     thumbnailShoe1,
     thumbnailShoe2,
-    thumbnailShoe3
+    thumbnailShoe3,
+
+    softwareplatforms,
+    itinfrastructure,
+    security,
+    data,
+    innovate,
+    bask,
+    women
 }

@@ -1,5 +1,5 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
+import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3, softwareplatforms, itinfrastructure, security, data, bask, women } from "../assets/images";
 
 export const navLinks = [
     { href: "#home", label: "Home" },
@@ -24,31 +24,31 @@ export const shoes = [
 ];
 
 export const statistics = [
-    { value: '1k+', label: 'Brands' },
-    { value: '500+', label: 'Shops' },
-    { value: '250k+', label: 'Customers' },
+    { value: '10+', label: 'Partners' },
+    { value: '500+', label: 'Completed Projects' },
+    { value: '100+', label: 'Customers' },
 ];
 
 export const products = [
     {
-        imgURL: shoe4,
-        name: "Nike Air Jordan-01",
-        price: "$200.20",
+        imgURL: softwareplatforms,
+        name: "Software & Platforms ",
+        price: "You dream it, we build it. We turn innovation into differentiation by putting custom systems",
     },
     {
-        imgURL: shoe5,
-        name: "Nike Air Jordan-10",
-        price: "$210.20",
+        imgURL: itinfrastructure,
+        name: "IT Infrastructure Management",
+        price: "Unleash your business potential. Outsource IT to experts. Boost efficiency, cut costs, focus on core competencies.",
     },
     {
-        imgURL: shoe6,
-        name: "Nike Air Jordan-100",
-        price: "$220.20",
+        imgURL: security,
+        name: "Cyber Security",
+        price: "Wherever your business goes, whoever it works with, you need cybersecurity that covers it all.",
     },
     {
-        imgURL: shoe7,
-        name: "Nike Air Jordan-001",
-        price: "$230.20",
+        imgURL: data,
+        name: "Data",
+        price: "Data is at the heart of everything an enterprise aspires to do. Make your data more valuable ",
     },
 ];
 
@@ -72,30 +72,29 @@ export const services = [
 
 export const reviews = [
     {
-        imgURL: customer1,
-        customerName: 'Harry Potter',
+        imgURL: bask,
+        customerName: 'Bask Health',
         rating: 4.5,
-        feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
+        feedback: "Gigadesk was instrumental in building a scalable IT infrastructure that supported our rapid growth."
     },
     {
-        imgURL: customer2,
-        customerName: 'Emma Watson',
+        imgURL: women,
+        customerName: 'Women First Digital',
         rating: 4.5,
-        feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
+        feedback: "Gigadesk's IT solutions empowered us to deliver a seamless digital experience."
     }
 ];
 
 
 export const footerLinks = [
     {
-        title: "Products",
+        title: "Services",
         links: [
-            { name: "Air Force 1", link: "/" },
-            { name: "Air Max 1", link: "/" },
-            { name: "Air Jordan 1", link: "/" },
-            { name: "Air Force 2", link: "/" },
-            { name: "Nike Waffle Racer", link: "/" },
-            { name: "Nike Cortez", link: "/" },
+            { name: "Software Development", link: "/" },
+            { name: "IT Department Outsourcing", link: "/" },
+            { name: "IT consulting", link: "/" },
+            { name: "Cyber Security ", link: "/" },
+            { name: "Data Analytics", link: "/" },
         ],
     },
     {
@@ -111,8 +110,8 @@ export const footerLinks = [
     {
         title: "Get in touch",
         links: [
-            { name: "customer@nike.com", link: "mailto:customer@nike.com" },
-            { name: "+92554862354", link: "tel:+92554862354" },
+            { name: "customer@gigadesk.com", link: "mailto:customer@gigadesk.com" },
+            { name: "+254719226150", link: "tel:+254719226150" },
         ],
     },
 ];

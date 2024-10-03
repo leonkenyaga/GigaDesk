@@ -8,10 +8,10 @@ const Footer = () => {
             <div className="flex justify-between items-start gap-20 flex-wrap max-lg:flex-col">
                 <div className="flex flex-col items-start">
                     <a href="/">
-                        <img src={footerLogo} width={150} height={46} />
+                    <h1 style={{ fontFamily: "Fira Mono" }} className="text-white font-bold text-2xl">GigaDesk</h1>
                     </a>
                     <p className="mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm">
-                        Get shoes ready for the new term at your nearest Nike store. Find Your perfect Size In Store. Get Rewards
+                    Your trusted partner for digital success.
                     </p>
                     <div className="flex items-center gap-5 mt-8">
                         {

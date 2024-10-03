@@ -1,5 +1,6 @@
 import Nav from "./components/Nav";
 import { Hero, PopularProducts, SuperQuality, Services, SpecialOffer, CustomerReviews, Subscribe, Footer } from "./sections";
+import '@fontsource/fira-mono';
 
 const App = () => {
   return (
@@ -14,12 +15,7 @@ const App = () => {
       <section className="padding">
         <SuperQuality />
       </section>
-      <section className="padding">
-        <Services />
-      </section>
-      <section className="padding">
-        <SpecialOffer />
-      </section>
+    
       <section className="bg-pale-blue padding">
         <CustomerReviews />
       </section>
