@@ -14,11 +14,13 @@ const Hero = () => {
             id="home"
             className="w-full xl:flex-row flex-col justify-center min-h-screen gap-10"
         >
-            <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28">
+            <div className="relative flex flex-col justify-center items-start w-full max-xl:padding-x pt-28">
+                
                 <h1 className="mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82px] font-bold">
-                    <span className="xl:bg-white xl:whitespace-nowrap relative z-10">Your trusted partner for  </span>
+                    <span className=" relative z-10">Your trusted partner for  </span>
                     <span className="text-coral-red inline-block mt-3">digital</span> success.
                 </h1>
+                
                 <p className="font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm">
                 Outsource your IT worries, unleash your business potential with our expert team.
                 </p>
