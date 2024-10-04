@@ -32,7 +32,7 @@ const Footer = () => {
                                     {
                                         section.links.map((link) => (
                                             <li className="mt-3 text-white font-montserrat text-base leading-normal hover:text-slate-gray cursor-pointer">
-                                                <a href="/">{link.name}</a>
+                                                <a href="https://mail.google.com/">{link.name}</a>
                                             </li>
                                         ))
                                     }
