@@ -110,8 +110,8 @@ export const footerLinks = [
     {
         title: "Get in touch",
         links: [
-            { name: "customer@gigadesk.com", link: "mailto:customer@gigadesk.com" },
-            { name: "+254719226150", link: "tel:+254719226150" },
+            { name: "gigadeskpartners@gmail.com", link: "gigadeskpartners@gmail.com" },
+            { name: "+254756142241", link: "tel:+254756142241" },
         ],
     },
 ];
